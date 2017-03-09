@@ -1,6 +1,6 @@
 const fs = require('fs');
 const OWNERSHIP_FILE = './rawCSVFiles/ownershipData.csv';
-const SNL_TREE_DATA = './rawCSVFiles/currentSNLTree.csv';
+const SNL_TREE_DATA = './rawCSVFiles/currentTree.csv';
 const BANK_DATA_IMPORT_FILE = './rawCSVFiles/bankDataImport.csv'
 const FILTERED_COMPANY_FILE = './rawCSVFiles/listOfSNLIDsForDataImport.csv';  //this is currently used as an output file
 
