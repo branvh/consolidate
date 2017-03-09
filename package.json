@@ -1,0 +1,19 @@
+{
+  "name": "bank-data-consolidator",
+  "version": "1.0.0",
+  "description": "consolidate bank financial statements",
+  "main": "mainDataImport.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/branvh/consolidate.git"
+  },
+  "author": "bvh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/branvh/consolidate/issues"
+  },
+  "homepage": "https://github.com/branvh/consolidate#readme"
+}
