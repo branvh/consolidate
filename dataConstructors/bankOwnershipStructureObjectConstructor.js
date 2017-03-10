@@ -22,6 +22,9 @@ function ownershipConstructor (arr) {
 	this.y9cAssets = (arr[16] == "NA") ? 0 : parseInt(arr[16]);
 	this.y9spAssets = (arr[17] == "NA") ? 0 : parseInt(arr[17]);
 	this.callFormAssets = (arr[18] == "NA") ? 0 : parseInt(arr[18]);
+	this.address = arr[19]; //street address
+	this.latitude = 0; //to be updated by another function
+	this.longitude = 0; //to be updated by another function
 
 	//for initial simplicity....could return false if there is a mid-level holcdo id >< parent id
 
