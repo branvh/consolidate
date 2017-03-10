@@ -167,6 +167,29 @@ function bankDataConstructor(arr) {
 	this.balanceCheck = (Math.abs(this.totalAssets - this.totalLiabilitiesAndEquity) <= 2); //error tolerance for rounding on each side
 	this.incomeCheck = true;
 
+	//PENDING ADDITIONS - WILL NEED TO UPDATE ARRAY SPLICE LOGIC
+	this.netDta = 0 //net dta
+	this.netDtl = 0; //net dtl
+	this.avgCashAndSecurities = 0;
+	this.avgLoans = 0;
+	this.avgEarningAssets = 0;
+	this.avgIbDeposits = 0;
+	this.avgTotalDeposits = 0;
+	this.avgTrups = 0;
+	this.avgSubDebt = 0;
+	this.avgIbLiabilities = 0;
+	this.avgEquity = 0;
+	this.avgTCE = 0;  //WATCH UNITS - MAY NEED TO CONVERT TO 1000S
+	this.intangibleAmort = 0;
+	this.dilutedEPS = 0;  //WATCH UNITS  
+	this.prefDiv = 0;
+	this.nco = 0; //net charge-offs
+	this.tangibleEquity = 0; 
+	this.commonShares = 0; //WATCH UNITS - MAY NEED TO CONVERT TO 1000S
+	this.avgDilutedShares = 0; //WATCH UNITS - MAY NEED TO CONVERT TO 1000S
+
+	this.sharePrice = 0; 
+
 	//==========================================================================SUB - S TAX ADJUSTMENTS======================================================
 	if (this.subS === "Yes") {
 
